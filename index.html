@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="chat">CHAT BOAT</h1>
+    <label for="label" class="userlabel">User</label> <label for="label" class="botlabel">Bot</label>
+    <div class="user">
+        <h1 id="chatLo"> </h1>
+    </div>
+
+    <div class="bot">
+        <h1 id="chatLog"> </h1>
+    </div>
+    <div class="userBox"> <span> Enter Text Here </span>
+        <input id="userBox" type="text" onkeydown="if(event.keyCode == 13) {talk()}">
+    </div>
+
+    <script src="javascript.js"></script>
+
+
+</body>
+
+</html>
